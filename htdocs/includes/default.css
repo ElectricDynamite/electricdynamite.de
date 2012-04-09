@@ -1,21 +1,21 @@
-
-/*
- * Electric Dynamite Network Tools - Copyright 2007,2008,2009,2010 Philipp Geschke <pg@electricdynamite.de>
- * This file is part of Electric Dynamite Network Tools.
+/* Copyright (c) 2012 Philipp Geschke <pg@electricdynamite.de>
  *
- * Electric Dynamite Network Tools is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
+ * Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
+ * documentation files (the "Software"), to deal in the Software without restriction, including without limitation the
+ * rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit
+ * persons to whom the Software is furnished to do so, subject to the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ * MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR
+ * ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+ * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  *
- * Electric Dynamite Network Tools is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with Electric Dynamite Network Tools.  If not, see <http://www.gnu.org/licenses/>.
+ * The above license and derived rights are explicitly related to this file only.
+ * 
  */
+
 
 body {
 	background-repeat:	no-repeat;
@@ -23,8 +23,9 @@ body {
 	background-color:	#FFFFFF;
 	font-family:		Geneva, Arial, Helvetica, sans-serif;                                                                                                                                                                      
     cursor: 			default; 
-	height:				100%;
 	font-size:			1em;
+	margin:				0px;
+	padding:			0px;
 }
 
 h1 {
@@ -39,7 +40,7 @@ h1 {
 h2 {
 	font-family:		Arial, Verdana, sans-serif;
 	font-size:			1.05em;
-	font-weight:		italic;
+	font-style:			italic;
 	color:				#C00000;                           
 	letter-spacing:		0.1em;                            
 	padding-left:		10px;
@@ -132,31 +133,29 @@ pre {
 }
 
 
-#headerline {
-	position:			absolute;
+header{
 	width:				776px;
 	height:				10px;
-	top:				205px;
-	left:				0px;
 	background-color:	#C00000;
+	margin:				205px 0px 0px 0px;
+	padding:			0px;
+	line-height:		8px;
 }
 
 #content {
-	position:			absolute;
 	width:				745px;
-	top:				215px;
-	left:				0px;
-	border:				1px dashed #C00000;
-	border-top:			none;
-	border-left:		none;
-	padding-left:		15px;
-	padding-right:		15px;
+	border-right:		1px dashed #C00000;
+	border-bottom:		1px dashed #C00000;
+	padding:			0px 15px 0px 15px;
+	margin:				0px;
 }
 
-#footer {
+footer {
 	padding-top:		20px;
+	padding-left:		15px;
 	font-size:			smaller;
 	color:				#999999;
+	margin-bottom:		50px;
 }
 
 
@@ -166,259 +165,4 @@ pre {
 
 .little {
 	font-size:			0.8em;
-}
-
-
-/* Below is unused? */
-
-#warning {
-	width:				95%;
-	font-size:			1.2em;
-	font-weight:		bolder;            
-	color:				#C00000;         
-	border:				1px dashed #C00000;
-	position:			absolute;
-	bottom:				100px;
-	text-align:			center;
-	padding:			10px;
-}
-
-#resultBox {
-	visibility:			hidden;
-	/* width is also defined in JavaScript, due to a Firefox behavior --pg */
-	width:				700px;
-	height:				600px;
-	border:				1px solid #FFFFFF;
-	background-color:	#000000;
-	color:				#FFFFFF;
-	z-index:			100;
-	position:			absolute;
-	left:				300px;
-	top:				50px;
-	padding:			5px;
-	vertical-align:		bottom;
-	overflow:			hidden;
-	-moz-border-radius-topleft:		5px;
-	-moz-border-radius-topright:	5px;
-	-khtml-border-radius-topleft:	5px;
-	-khtml-border-radius-topright:	5px;
-}
-
-#resultMenu {
-	visibility:			hidden;
-	/* width is also defined in JavaScript, due to a Firefox behavior --pg */
-	width:				710px;
-	height:				25px;
-	background-color:	#FFFFFF;
-	border:				1px solid #FFFFFF;
-	color:				#000000;
-	z-index:			99;
-	position:			absolute;
-	left:				300px;
-	top:				625px;
-	text-align:			center;
-	vertical-align:		middle;
-	-moz-border-radius-bottomleft:	5px;
-	-moz-border-radius-bottomright:	5px;
-	-khtml-border-radius-bottomleft:	5px;
-	-khtml-border-radius-bottomright:	5px;
-}
-
-#resultMenuTable {
-	width:				100%;
-}
-#resultMenuTable td{
-	width: 				33%;
-}
-
-#imgRunning {
-}
-
-#menu {
-	position:			absolute;
-	left:				20px;
-	top:				130px;
-	display:			block;
-}	
-
-#menu a:link {
-	-moz-border-radius-topleft:	4px;
-	-moz-border-radius-topright:	4px;
-	-khtml-border-radius-topleft:	4px;
-	-khtml-border-radius-topright:	4px;
-	text-decoration:	none;
-	margin:				4px;          
-	display:			inline;       
-	width:				150px;         
-	height:				20px;         
-	border-top:			1px solid #C00000;
-	border-left:		1px solid #C00000;
-	border-right:		1px solid #C00000;
-	border-bottom:		1px solid #C00000;
-	padding-left:		10px;              
-	padding-right:		10px;             
-	padding-top:		2px;                
-	padding-bottom:		2px;  
-}
-
-#menu a:visited {
-	-moz-border-radius-topleft:	4px;
-	-moz-border-radius-topright:	4px;
-	-khtml-border-radius-topleft:	4px;
-	-khtml-border-radius-topright:	4px;
-	text-decoration:	none;
-	font-weight:		bold;
-	margin:				4px;          
-	display:			inline;       
-	width:				150px;         
-	height:				20px;         
-	border-top:			1px solid #C00000;
-	border-left:		1px solid #C00000;
-	border-right:		1px solid #C00000;
-	border-bottom:		1px solid #C00000;
-	padding-left:		10px;              
-	padding-right:		10px;             
-	padding-top:		2px;                
-	padding-bottom:		2px;  
-}
-
-#menu a:hover {
-	text-decoration:	none;
-	background-color:	#FFFFFF;
-	color:				#C00000;     
-}
-
-#entryForm {
-	-moz-border-radius-bottomleft:	4px;
-	-moz-border-radius-bottomright:	4px;
-	-moz-border-radius-topright:	4px;
-	-khtml-border-radius-bottomleft:	4px;
-	-khtml-border-radius-bottomright:	4px;
-	-khtml-border-radius-topright:	4px;
-	position:			absolute;
-	left:				24px;
-	top:				150px;
-	background-color:	#C00000;
-	color:				#FFFFFF;
-	width:				650px;
-	height:				320px;
-	padding:			10px;
-	overflow:			auto;
-}
-
-#entryForm a {
-	border-bottom:		1px dashed #FFFFFF;                
-	color:				#FFFFFF;  
-}
-
-#entryForm a:hover {
-	border-bottom:		1px solid #FFFFFF;                
-}
-
-#greyout {
-	position:			absolute;
-	left:				0px;
-	top:				0px;
-	width:				100%;
-	height:				100%;
-	background-color:	#000000;
-	filter:				alpha(opacity=70);
-	-khtml-opacity:		0.7;
-	opacity:			0.7;
-	z-index:			99;
-	display:			none;
-	text-align:			center;
-}
-
-#greyoutMessage {
-	position:			absolute;
-	border:				2px solid #C00000;
-	background-color:	#FFFFFF;
-	color:				#C00000;
-	font-weight:		bold;
-	display:			none;
-	z-index:			100;
-	width:				50%;
-	text-align:			center;
-	padding:			5px;
-}
-
-/*
-#alertbox {
-	visibility:			hidden;
-	width:				500px;
-	border:				3px solid #C00000;
-	border-style:		outset;
-	background-color:	#FFFFFF;
-	color:				#C00000;
-	font-weight:		bold;
-	z-index:			101;
-	position:			absolute;
-	left:				400px;
-	top:				100px;
-	padding:			10px;
-	text-align:			center;
-	overflow:			auto;
-	-moz-border-radius:	5px;
-	-khtml-border-radius:	5px;
-} 
-*/
-
-#alertbox {
-	background-repeat:	no-repeat;
-	visibility:			hidden;
-	background-image:	url('message_bg.png');
-	width:				328px;
-	height:				28px;
-	color:				#C00000;
-	font-size:			0.8em;
-	text-align:			center;
-	z-index:			98;
-	position:			absolute;
-	top:				5px;	
-	padding:			11px;
-}
-
-
-#LoadingSign {
-	width:				100%;
-	height:				100%;
-	padding-top:		10%;
-	text-align:			center;
-}  
-
-.bold {
-	font-weight:		bold;
-}
-
-.smaller {
-	font-size:			0.9em;
-}
-
-.little {
-	font-size:			0.8em;
-}
-
-.noborder {
-	border:				none;
-	border-top:			none;
-	border-right:		none;
-	border-bottom:		none;
-	border-left:		none;
-} 
-
-.more {
-	font-size:			0.9em;
-}
-
-.more:before {
-	content:url('more.png');
-}
-
-.moreOptions {
-	display:			none;
-	margin-top:			0px;
-	margin-bottom:		10px;
-	padding:			5px;
-	border:				1px dashed #FFFFFF;
 }
