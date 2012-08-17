@@ -26,6 +26,7 @@ body {
   font-size:      1em;
   margin:       0px;
   padding:      0px;
+  margin-left:  5%;
 }
 
 h1 {
@@ -34,7 +35,7 @@ h1 {
   font-weight:    bold;
   color:        #C00000;                           
   letter-spacing:   0.1em;                            
-  padding-left:   10px;    
+  padding-left:   10px; 
 }
 
 h2 {
@@ -93,22 +94,19 @@ input .noborder {
 
 a:link {
   font-family:    Geneva, Arial, Helvetica, sans-serif;
-  text-decoration:  none;                            
-  border-bottom:    1px dashed #C00000;                
+  text-decoration:  none;                              
   color:        #C00000;                                   
 }                                                         
 
 a:visited {
   font-family:    Geneva, Arial, Helvetica, sans-serif;
-  text-decoration:  none;                            
-  border-bottom:    1px dashed #C00000;                
+  text-decoration:  none;                              
   color:        #C00000;                                    
 }                                                         
 
 a:hover {
   font-family:    Geneva, Arial, Helvetica, sans-serif;
-  text-decoration:  none;                            
-  border-bottom:    1px solid #C00000;                
+  text-decoration:  underline;                             
   color:        #C00000;                                 
 }                                                         
 
@@ -134,7 +132,6 @@ pre {
 
 
 header{
-  width:        745px;
   height:       20px;
   background-color: #C00000;
   margin:       205px 0px 0px 0px;
@@ -161,11 +158,16 @@ header a:active{
   color:        #FFF;
 }
 
-#content {
+#wrapper {
+  box-shadow:   3px 3px 8px #000;
   width:        745px;
-  border-right:   1px dashed #C00000;
-  border-bottom:    1px dashed #C00000;
-  padding:      0px 15px 0px 15px;
+}
+
+#content {
+  background:   url('bg_highlight.png');
+  background-repeat: no;
+  background-color: #EEE;
+  padding:      20px 15px 20px 15px;
   margin:       0px;
 }
 
