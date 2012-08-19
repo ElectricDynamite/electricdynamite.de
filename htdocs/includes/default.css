@@ -137,6 +137,7 @@ header{
   margin:       205px 0px 0px 0px;
   padding:      1px 15px 1px 15px;
   text-align:   right;
+  border-radius: 8px 8px 0px 0px;
 }
 
 header a:link{
@@ -161,6 +162,7 @@ header a:active{
 #wrapper {
   box-shadow:   3px 3px 8px #000;
   width:        745px;
+  border-radius: 8px 8px 0px 0px;
 }
 
 #content {
