@@ -166,7 +166,7 @@ header a:active{
 
 #content {
   background:   url('bg_highlight.png');
-  background-repeat: no;
+  background-repeat: no-repeat;
   background-color: #EEE;
   padding:      20px 15px 20px 15px;
   margin:       0px;
