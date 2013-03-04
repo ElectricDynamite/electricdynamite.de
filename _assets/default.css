@@ -19,7 +19,7 @@
 
 body {
   background-repeat:  no-repeat;
-  background-image: url('logo.png');
+  background-image: url('../includes/logo.png');
   background-color: #FFFFFF;
   font-family:    Geneva, Arial, Helvetica, sans-serif;                                                                                                                                                                      
     cursor:       default; 

@@ -5,7 +5,10 @@
     <title>Electric Dynamite ::. {{page.title}}
     </title>
     <!--<link rel="icon" href="/images/favicon.ico" type="image/x-icon">-->
-    <link rel="stylesheet" href="../includes/default.css">
+    {% css_asset_tag global %}
+      - /_assets/default.css
+    {% endcss_asset_tag %}
+          
   </head>
   <body>
   <div id="wrapper">
