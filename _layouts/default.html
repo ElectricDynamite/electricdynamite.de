@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="{{page.lc}}">
+  <head>
+    <meta charset="UTF-8">
+    <title>Electric Dynamite ::. {{page.title}}
+    </title>
+    <!--<link rel="icon" href="/images/favicon.ico" type="image/x-icon">-->
+    <link rel="stylesheet" href="../includes/default.css">
+  </head>
+  <body>
+  <div id="wrapper">
+    <header>{% if page.lc == "en" %}<a href="../de/{{page.name}}.html">Deutsch</a>{% else %}<a href="../en/{{page.name}}.html">English</a>{% endif %}</header>
+    <div id="content">
+      {{content}}
+    </div>
+  </div>
+  <footer>Electric Dynamite ::. Website - &copy;2007 - 2013 Philipp Geschke | <a href="index.html">Home</a> | <a href="imprint.html">{% if page.lc == "de" %}Impressum{% else %}Imprint{% endif %}</a> | <a href="privacy.html">{% if page.lc == "de" %}Datenschutzerkl&auml;rung{% else %}Privacy Policy{% endif %}</a></footer>
+</body>
+</html>
+
