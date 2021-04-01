@@ -14,7 +14,7 @@
     <div id="wrapper">
       <header>
         {{ range .Translations }}
-        <a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+        <a href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a>
         {{ end }}
       </header>
       <div id="content">
@@ -22,7 +22,7 @@
       </div>
     </div>
     <footer>
-      Electric Dynamite ::. Website - &copy;2007 - {{ now.Format "2006"}} Philipp Geschke 
+      Electric Dynamite ::. Website - &copy;2007 - {{ now.Format "2006"}} Philipp Geschke
       {{ range $.Site.Params.footerLinks }}
         | <a href="{{.link}}">{{ .title }}</a>
       {{ end }}
