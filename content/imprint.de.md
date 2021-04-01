@@ -2,7 +2,7 @@
 title: "Impressum"
 ---
 Impressum
-=======
+=========
 
 Electric Dynamite ist ein Projekt von:
 
