@@ -1,0 +1,27 @@
+baseURL: http://electricdynamite.de/
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: true
+title: Electric Dynamite
+languages:
+  en:
+    languageName: English
+    weight: 2
+    params:
+      footerLinks:
+        - title: Home
+          link: /en/
+        - title: Imprint
+          link: /en/imprint/
+        - title: Privacy Policy
+          link: /en/privacy/
+  de:
+    languageName: Deutsch
+    weight: 1
+    params:
+      footerLinks:
+        - title: Home
+          link: /de/
+        - title: Impressum
+          link: /de/imprint/
+        - title: Datenschutzerklärung
+          link: /de/privacy/

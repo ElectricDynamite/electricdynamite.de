@@ -1,0 +1,8 @@
+[imprint]
+other = "Impressum"
+[privacy_policy]
+other = "Datenschutzerklärung"
+[the_other_language_name]
+other = 'English'
+[the_other_language_code]
+other = 'en'

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="/css/default.css">
+    {{ $title := print .Site.Title " ::. " .Title }}
+    {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
+    <title>{{ $title }}</title>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        {{ range .Translations }}
+        <a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+        {{ end }}
+      </header>
+      <div id="content">
+        {{- block "main" . }}{{- end }}
+      </div>
+    </div>
+    <footer>
+      Electric Dynamite ::. Website - &copy;2007 - {{ now.Format "2006"}} Philipp Geschke 
+      {{ range $.Site.Params.footerLinks }}
+        | <a href="{{.link}}">{{ .title }}</a>
+      {{ end }}
+    </footer>
+  </body>
+</html>
