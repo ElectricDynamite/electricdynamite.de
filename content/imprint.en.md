@@ -1,5 +1,6 @@
 ---
 title: "Imprint"
+aliases: /imprint.html
 ---
 Imprint
 =======
