@@ -7,9 +7,9 @@ Imprint
 
 Electric Dynamite is a project of:
 
-Philipp Geschke  
-Kurmainzer Stra&szlig;e 8  
-65817 Eppstein  
+Philipp Geschke
+Wiesbadener Stra&szlig;e 6a
+65527 Niedernhausen
 Germany
-email: mail AT electricdynamite DOT de  
-phone: +49 6198 585 992
+email: mail AT electricdynamite DOT de
+phone: +49 6127 9650930
