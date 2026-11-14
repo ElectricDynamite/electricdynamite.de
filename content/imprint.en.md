@@ -5,11 +5,23 @@ aliases: /imprint.html
 Imprint
 =======
 
-Electric Dynamite is a project of:  
-  
+Information according to § 5 DDG (German Digital Services Act)
+--------------------------------------------------------------
+
 Philipp Geschke  
-Wiesbadener Stra&szlig;e 6a  
+Wiesbadener Straße 6a  
 65527 Niedernhausen  
-Germany  
-email: mail AT electricdynamite DOT de  
-phone: +49 6127 9650930  
+Germany
+
+Electric Dynamite is not a company, but the name under which Philipp Geschke publishes software as a private person.
+
+Contact
+-------
+
+Email: [mail@electricdynamite.de](mailto:mail@electricdynamite.de)  
+Phone: +49 6127 9650930
+
+Responsible for content according to § 18 (2) MStV (German Interstate Media Treaty)
+-----------------------------------------------------------------------------------
+
+Philipp Geschke, address as above

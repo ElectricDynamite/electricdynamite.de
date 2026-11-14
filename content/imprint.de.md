@@ -5,13 +5,23 @@ aliases: /imprint.html
 Impressum
 =========
 
-Electric Dynamite ist ein Projekt von:  
-  
+Angaben gemäß § 5 DDG
+---------------------
+
 Philipp Geschke  
-Wiesbadener Stra&szlig;e 6a  
+Wiesbadener Straße 6a  
 65527 Niedernhausen  
-Deutschland  
-E-Mail: mail AT electricdynamite DOT de  
-Tel.: +49 6127 9650930  
-  
-Philipp Geschke ist verantwortlich im Sinne des Telemediengesetzes.
+Deutschland
+
+Electric Dynamite ist kein Unternehmen, sondern der Name, unter dem Philipp Geschke als Privatperson Software veröffentlicht.
+
+Kontakt
+-------
+
+E-Mail: [mail@electricdynamite.de](mailto:mail@electricdynamite.de)  
+Telefon: +49 6127 9650930
+
+Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV
+---------------------------------------------------
+
+Philipp Geschke, Anschrift wie oben
