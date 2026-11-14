@@ -8,6 +8,7 @@ languages:
     label: English
     weight: 2
     params:
+      description: Electric Dynamite is the label under which Philipp Geschke publishes software, such as Pasty, the cloud clipboard.
       footerLinks:
         - title: Home
           link: /en/
@@ -19,6 +20,7 @@ languages:
     label: Deutsch
     weight: 1
     params:
+      description: Electric Dynamite ist das Label, unter dem Philipp Geschke Software veröffentlicht, zum Beispiel Pasty, das Cloud Clipboard.
       footerLinks:
         - title: Home
           link: /de/

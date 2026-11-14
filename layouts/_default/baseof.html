@@ -1,30 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="{{ .Language.Lang }}">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css"> -->
-    <link rel="stylesheet" type="text/css" href="/css/default.css">
+    <meta name="color-scheme" content="light dark">
+    <meta name="description" content="{{ .Description | default .Site.Params.description }}">
+    {{ $css := resources.Get "css/default.css" | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
     {{ $title := print .Site.Title " ::. " .Title }}
     {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
     <title>{{ $title }}</title>
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    {{ range .Translations }}<link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">{{ end }}
   </head>
   <body>
-    <div id="wrapper">
-      <header>
-        {{ range .Translations }}
-        <a href="{{ .RelPermalink }}">{{ .Language.Label }}</a>
+    <header>
+      <a class="brand" href="{{ .Site.Home.RelPermalink }}">
+        <span class="brand-name">Electric Dynamite</span>
+        <span class="brand-bits" aria-hidden="true">01000101 01101100 01100101 01100011 01110100 01110010 01101001 01100011 00100000 01000100 01111001 01101110 01100001 01101101 01101001 01110100 01100101</span>
+      </a>
+      <nav aria-label="Language">
+        {{ range .AllTranslations }}
+        <a href="{{ .RelPermalink }}" hreflang="{{ .Language.Lang }}" lang="{{ .Language.Lang }}"{{ if eq .Language.Lang $.Language.Lang }} aria-current="page"{{ end }}>{{ upper .Language.Lang }}</a>
         {{ end }}
-      </header>
-      <div id="content">
-        {{- block "main" . }}{{- end }}
-      </div>
-    </div>
+      </nav>
+    </header>
+    <main{{ if .IsHome }} class="home"{{ end }}>
+      {{- block "main" . }}{{- end }}
+    </main>
     <footer>
-      Electric Dynamite ::. Website - &copy;2007 - {{ now.Format "2006"}} Philipp Geschke
+      Electric Dynamite &copy; 2007–{{ now.Format "2006" }} Philipp Geschke
       {{ range $.Site.Params.footerLinks }}
-        | <a href="{{.link}}">{{ .title }}</a>
+        · <a href="{{ .link }}">{{ .title }}</a>
       {{ end }}
     </footer>
   </body>
