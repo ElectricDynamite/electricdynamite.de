@@ -59,6 +59,6 @@ Privacy Policy Changes
 
 Although most changes are likely to be minor, Electric Dynamite may change its Privacy Policy from time to time, and in Electric Dynamite's sole discretion. Electric Dynamite encourages visitors to frequently check this page for any changes to its Privacy Policy. Your continued use of this site after any change in this Privacy Policy will constitute your acceptance of such change.
 
-###### Licensed under Creative Commons Sharealike license (CC-BY-SA). Remix of [Automattic's Privacy Policy](http://automattic.com/privacy/), in its state in March 2012, which is licensed under CC-BY-SA itself.
+###### Licensed under Creative Commons Sharealike license (CC-BY-SA). Remix of [Automattic's Privacy Policy](https://automattic.com/privacy/), in its state in March 2012, which is licensed under CC-BY-SA itself.
 
 ###### Updated on July 2nd. 2013. Changes: Added pasty.cc as domain.

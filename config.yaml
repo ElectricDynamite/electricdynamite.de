@@ -1,10 +1,11 @@
 baseURL: https://www.electricdynamite.de/
+disableKinds: [taxonomy, term]
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: true
 title: Electric Dynamite
 languages:
   en:
-    languageName: English
+    label: English
     weight: 2
     params:
       footerLinks:
@@ -15,7 +16,7 @@ languages:
         - title: Privacy Policy
           link: /en/privacy/
   de:
-    languageName: Deutsch
+    label: Deutsch
     weight: 1
     params:
       footerLinks:

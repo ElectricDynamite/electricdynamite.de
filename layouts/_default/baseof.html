@@ -14,7 +14,7 @@
     <div id="wrapper">
       <header>
         {{ range .Translations }}
-        <a href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a>
+        <a href="{{ .RelPermalink }}">{{ .Language.Label }}</a>
         {{ end }}
       </header>
       <div id="content">
