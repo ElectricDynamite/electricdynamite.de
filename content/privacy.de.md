@@ -5,60 +5,81 @@ aliases: /privacy.html
 Datenschutzerklärung
 ====================
 
-Ihre Privatsphäre ist uns sehr wichtig. Electric Dynamite hat einige Grundprinzipien:
+Diese Datenschutzerklärung gilt für alle Angebote von Electric Dynamite:
 
-  * Wir fragen nicht nach persönlichen Informationen, wenn wir Sie nicht wirklich benötigen. (Wir mögen selbst keine Dienste, die nach Ihrem Geschlecht oder Ihren Einkommensverhältnissen fragen, ohne dafür einen klaren Grund zu haben.)
-  * Wir geben Ihre persönlichen Daten nicht weiter, außer zur Einhaltung von Gesetzen, um unsere Produkte zu entwickeln, oder um unsere Rechte zu schützen.
-  * Wir speichern keine persönlichen Daten auf unseren Servern, solange es nicht für den laufenden Betrieb unserer Dienste nötig ist.
+  * die Websites electricdynamite.de, pastyapp.org und blafaselblub.net,
+  * den Cloud-Clipboard-Dienst Pasty, bestehend aus der Web-App pasty.cc, dem Server api.pastyapp.org und der Pasty-App für Android.
 
-Folgend ist unsere Datenschutzerklärung, welche diese Ziele verinnerlicht:
+Kurz gesagt: Ich erhebe nur Daten, die für den Betrieb nötig sind. Es gibt kein Tracking, keine Analyse-Tools, keine Werbung und keine Cookies. Daten werden nicht verkauft.
 
-Falls Sie Fragen zum Löschen oder Korrigieren Ihrer persönlichen Daten haben, kontaktieren Sie bitte privacy@electricdynamite.de.
+Verantwortlicher
+----------------
 
-Philipp Geschke ("Electric Dynamite") betreibt mehrere Webseiten, unter anderem electricdynamite.de, pasty.cc, pastyapp.org, ngdm.de and blafaselblub.net. Es ist Electric Dynamites Richtlinie, Ihre Privatsphäre zu respektieren, wann immer es um Informationen geht, welche wir durch den Betrieb dieser Webseiten sammeln.
+Philipp Geschke  
+Wiesbadener Straße 6a  
+65527 Niedernhausen  
+Deutschland  
+E-Mail: [mail@electricdynamite.de](mailto:mail@electricdynamite.de)
 
-Webseiten Besucher
+Ein Datenschutzbeauftragter ist nicht benannt, da keine Pflicht dazu besteht.
+
+Besuch der Websites
+-------------------
+
+Bei jedem Aufruf einer Seite überträgt Ihr Browser technisch bedingt Daten an den Server: IP-Adresse, Datum und Uhrzeit, aufgerufene Adresse, übertragene Datenmenge, Statuscode, Browsertyp und Referrer. Diese Daten werden in Server-Logdateien gespeichert, um den Betrieb und die Sicherheit der Dienste zu gewährleisten und Fehler oder Angriffe erkennen zu können. Sie werden nicht mit anderen Daten zusammengeführt.
+
+Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO. Das berechtigte Interesse liegt im sicheren und stabilen Betrieb.
+
+**electricdynamite.de und pastyapp.org** werden über GitHub Pages bereitgestellt, einen Dienst der GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA. GitHub verarbeitet dabei die oben genannten Zugriffsdaten, einschließlich der IP-Adresse, auch in den USA. GitHub ist nach dem EU-US Data Privacy Framework zertifiziert; die Übermittlung erfolgt auf Grundlage des Angemessenheitsbeschlusses der EU-Kommission (Art. 45 DSGVO). Details: [Datenschutzerklärung von GitHub](https://docs.github.com/de/site-policy/privacy-policies/github-general-privacy-statement).
+
+**pasty.cc, api.pastyapp.org und blafaselblub.net** laufen auf einem virtuellen Server bei einem Hosting-Anbieter mit Rechenzentrum in Deutschland, der als Auftragsverarbeiter nach Art. 28 DSGVO tätig ist. Die Logdateien dort werden nach 7 Tagen gelöscht.
+
+Pasty
+-----
+
+Für die Nutzung von Pasty ist ein Konto nötig. Dabei werden verarbeitet:
+
+  * **Kontodaten:** Benutzername, Passwort (nur als Hash mit scrypt gespeichert, nie im Klartext) und der Zeitpunkt der letzten Aktivität.
+  * **Clipboard-Einträge:** die Texte, die Sie in Ihr Clipboard legen, mit dem Zeitpunkt der Erstellung. Pasty speichert diese Inhalte nur, um sie Ihnen auf Ihren Geräten anzuzeigen, und wertet sie nicht aus.
+  * **Anmeldungen:** Für jede Anmeldung wird ein Token gespeichert (nur als Hash). Unbenutzte Tokens laufen nach 7 Tagen ab und werden danach automatisch gelöscht.
+  * **Zugriffsprotokolle des Servers:** IP-Adresse, aufgerufene Adresse, Statuscode und Benutzername jeder Anfrage, zur Fehlersuche und zum Schutz vor Missbrauch. Löschung nach 7 Tagen.
+
+Eine E-Mail-Adresse oder andere persönliche Angaben werden nicht abgefragt.
+
+Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO (Bereitstellung des Dienstes, den Sie nutzen möchten), für die Zugriffsprotokolle Art. 6 Abs. 1 lit. f DSGVO.
+
+Kontodaten und Clipboard-Einträge werden gespeichert, bis Sie sie löschen. Einzelne Einträge können Sie jederzeit selbst löschen, Ihr gesamtes Konto samt aller Einträge in der Web-App unter [pasty.cc](https://pasty.cc) in den Einstellungen. Dort können Sie Ihr Clipboard auch exportieren.
+
+**Web-App (pasty.cc):** Damit Sie angemeldet bleiben, speichert die Web-App Benutzername, Benutzer-ID und ein Anmelde-Token im lokalen Speicher (Local Storage) Ihres Browsers. Diese Speicherung ist für den von Ihnen gewünschten Dienst unbedingt erforderlich (§ 25 Abs. 2 Nr. 2 TDDDG). Beim Abmelden werden die Daten entfernt.
+
+**Android-App:** Die App speichert Ihre Zugangsdaten und Einstellungen nur auf Ihrem Gerät und überträgt Daten ausschließlich an api.pastyapp.org. Sie enthält keine Analyse-, Werbe- oder Absturzmelde-Dienste. Beim Herunterladen über Google Play verarbeitet Google Daten nach seinen eigenen [Datenschutzbestimmungen](https://policies.google.com/privacy).
+
+Kontakt per E-Mail
 ------------------
 
-Wie die meißten Webseitenbetreiber sammelt auch Electric Dynamite nicht persönliche Informationen der Art, die Web-Browser und Server üblicherweise freiwillig zur Verfügung stellen, zum Beispiel der Typ des Browsers, Vorzüge in der Sprachwahl, die Webseite über welche zu einem unserer Dienste gefunden wurde, und Tag und Uhrzeit jeder Datenanforderung des Besuchers an unsere Server. Electric Dynamites Ziel bei dem Sammeln dieser Informationen ist, besser zu verstehen, wie Electric Dynamites Besucher unsere Webseiten nutzen. Gelegentlich kann Electric Dynamite zusammengefasste nicht-persönliche Statistiken veröffentlichen, z.B. um den Trend einer Nutzung zu verdeutlichen.
+Wenn Sie mir eine E-Mail schreiben, verarbeite ich Ihre Adresse und den Inhalt der Nachricht, um Ihre Anfrage zu beantworten (Art. 6 Abs. 1 lit. b bzw. f DSGVO). Die E-Mails werden gelöscht, wenn sie nicht mehr benötigt werden, sofern keine gesetzlichen Aufbewahrungspflichten bestehen.
 
-Electric Dynamite sammelt ebenfalls potentiell persönliche Informationen wie Internet Protocol (IP) Adressen angemeldeter Benutzer und von Benutzern die etwas in Ihr Cloud Clipboard auf pasty.cc hinzufügen. Electric Dynamite veröffentlicht diese Informationen nur unter den untenstehenden Bedingungen.
+Weitergabe von Daten
+--------------------
 
-Sammlung von persönlichen Informationen
----------------------------------------
+Daten werden nur an die oben genannten Hosting-Anbieter weitergegeben oder wenn ich gesetzlich dazu verpflichtet bin. Daten werden weder verkauft noch für Werbung genutzt. Eine automatisierte Entscheidungsfindung oder Profilbildung findet nicht statt.
 
-Bestimmte Besucher von Electric Dynamites Webseiten entscheiden sich, Electric Dynamites Dienste so zu nutzen, dass Electric Dynamite persönliche Informationen über diese Besucher sammeln muss. Die Menge und Art der gesammelten Informationen hängt von dem genauen Dienst und der Art der Nutzung ab. Beispielsweise fragen wir Besucher, welche sich für ein Cloud Clipboard auf https://pasty.cc anmelden nach einem Benutzernamen. In jedem Falle sammelt Electric Dynamite solche Informationen nur insoweit, als wie es nötig oder angemessen ist, um den Zweck der Interaktion des Besuchers mit Electric Dynamite zu erfüllen. Electric Dynamite veröffentlich keine persönlichen Informationen außer unter den untenstehenden Bedingungen. Darüber hinaus haben Besucher immer die Möglichkeit, persönliche Daten nicht bereitzustellen, allerdings mit der Auswirkung, Electric Dynamites Webseiten und Dienste nicht, oder nur eingeschränkt nutzen zu können.
-Zusammengefasste Statistiken
+Alle Dienste sind nur verschlüsselt (HTTPS) erreichbar.
 
-Electric Dynamite kann Statistiken über die Nutzungsart und -menge seiner Webseitenbesucher sammeln. Electric Dynamite darf diese Statistiken öffentlich darstellen oder Dritten zugänglich machen. Allerdings veröffentlicht Electric Dynamite keine persönlichen Informationen, außer unter den untenstehenden Bedingungen.
+Ihre Rechte
+-----------
 
-Schutz bestimmter persönlicher Daten
-------------------------------------
+Sie haben das Recht auf:
 
-Electric Dynamite stellt potenziell persönliche oder persönliche Daten nur denen seiner Mitarbeiter, Vertragspartner oder zugehörigen Organisationen zur Verfügung, welche (i) diese Daten benötigen um Sie in Electric Dynamites Auftrag zu verarbeiten oder Dienste auf Electric Dynamites Webseiten anzubieten, und (ii) welche zugestimmt haben, diese Daten nicht weiterzureichen. Manche dieser Mitarbeiter, Vertragspartner oder zugehörigen Organisationen können außerhalb Ihres Heimatlandes liegen; durch Ihre Nutzung von Electric Dynamites Webseiten und Diensten stimmen Sie eine möglichen Datenübertragung an diese zu. Electric Dynamite wird keine potenziell persönlichen oder persönlichen Daten an irgendjemanden vermieten oder verkaufen. Außer an seine Mitarbeiter, Vertragspartner oder zugehörigen Organisationen, wie oben beschrieben, gibt Electric Dynamite potenziell persönliche oder persönliche Informationen nur weiter, um auf einstweilige Verfügungen, gerichtliche Anordnungen oder andere staatliche Anforderungen zu reagieren, oder wenn Electric Dynamite in gutem Glauben ist, dass das weitergeben dieser Informationen nötig ist, um das geistige Eigentum von Electric Dynamite, Dritten, oder der Öffentlichkeit im Allgemeinen zu schützen. Wenn Sie ein registrierter Nutzer einer Webseite oder eines Dienstes von Electric Dynamite sind und dort eine E-Mailadresse angegeben haben, darf Electric Dynamite Ihnen gelegentlich eine E-Mail senden, um Sie auf neue Funktionen hinzuweisen, Sie um Rückmeldung zu unseren Diensten zu bitten, oder einfach um Sie darüber auf dem Laufenden zu halten, was es neues bei Electric Dynamite oder unseren Produkten gibt. Wenn Sie eine Anfrage an uns richten, z.B. über eine Supportanfrage oder einen unsere Feedback-Kanäle, behalten wir uns das Recht vor, diesen zu veröffentlichen, um Richtigstellungen oder Antworten auf Ihre Anfrage zu veröffentlichen, oder um unseren Nutzern im Allgemeinen hierdurch zu helfen. Electric Dynamite nimmt alle notwendigen und angebrachten Maßnahmen vor, um unautorisierten Zugang, Nutzung, Veränderung oder Zerstörung von potenziell persönlichen oder persönlichen Daten zu verhindern.
+  * Auskunft über Ihre gespeicherten Daten (Art. 15 DSGVO),
+  * Berichtigung unrichtiger Daten (Art. 16 DSGVO),
+  * Löschung (Art. 17 DSGVO),
+  * Einschränkung der Verarbeitung (Art. 18 DSGVO),
+  * Datenübertragbarkeit (Art. 20 DSGVO),
+  * Widerspruch gegen Verarbeitungen auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO (Art. 21 DSGVO).
 
-Cookies
--------
+Schreiben Sie dazu einfach an [mail@electricdynamite.de](mailto:mail@electricdynamite.de).
 
-Ein Cookie ist eine Zeichenfolge von Informationen, welche Webseiten auf dem Computer eines Besuchers speichern, welche der Browser des Besuchers der Webseite bei jedem wiederholten Besuch zur Verfügung stellt. Electric Dynamite nutzt Cookies, um Electric Dynamite zu helfen, Besucher wiederzuerkennen oder über den Verlauf Ihres Aufenthalts auf unseren Webseiten identifizieren zu können, sowie deren persönlichen Einstellungen zur Nutzung unserer Webseiten. Electric Dynamite Besucher sollten in Ihrem Browser das Akzeptieren von Cookies unterbinden, bevor Sie Electric Dynamites Webseiten nutzen, unter Hinweis darauf, das einige Webseiten und Dienste von Electric Dynamite unter diesen Umständen möglicherweise nicht ordnungsgemäß funktionieren können. Es gibt je nach der Wahl Ihres Browsers verschiedene Erweiterungen, welche Cookies nur bei Bedarf oder nach manueller Interaktion durch Sie akzeptieren, und gleichzeitig ein komfortables Nutzen des Internets zulassen. Electric Dynamite empfiehlt generell die Nutzung solcher Produkte zum Schutz der persönlichen Daten.
+Außerdem können Sie sich bei einer Datenschutz-Aufsichtsbehörde beschweren (Art. 77 DSGVO). Zuständig ist der Hessische Beauftragte für Datenschutz und Informationsfreiheit, Gustav-Stresemann-Ring 1, 65189 Wiesbaden, [datenschutz.hessen.de](https://datenschutz.hessen.de).
 
-Geschäftsübernahme
-------------------
-
-Falls Electric Dynamite, oder wesentliche Teile unserer Aktivposten, gekauft werden, oder in dem unwahrscheinlichen Falle, dass Electric Dynamite Insolvenz anmeldet, oder das Geschäft aufgibt, wären Benutzerdaten einer der Aktivposten, welche den Besitzer wechseln würden. Sie willigen ein, dass ein solcher Fall eintreten kann, und dass in diesem Fall der künftige Eigentümer Ihre Daten weiterhin, unter den Bedingungen dieser Datenschutzerklärung, nutzen kann.
-
-Werbung
--------
-
-Werbung, welche auf unseren Webseiten erscheint, kann von Werbepartnern ausgeliefert werden, welche Cookies setzen. Diese Cookies erlauben dem Werbungsanbieter, Ihren Computer wieder zu erkennen, wann immer eine Werbung an Ihren Computer ausgeliefert wird, und diese Werbung auf Ihre Interessen oder die Interessen der Personen, die Ihren Computer nutzen, abzustimmen. Diese Datenschutzerklärung behandelt ausschließlich die Cookies, welche durch Electric Dynamites Webseiten oder Dienste gesetzt werden, keinesfalls aber die Cookies, welche durch ein Werbenetzwerk gesetzt werden.
-
-Änderungen der Datenschutzerklärung
------------------------------------
-
-Obwohl die meißten Änderungen sehr klein oder sogar kosmetischer Natur sein dürften, behält Electric Dynamite sich das Recht vor, diese Datenschutzerklärung eigenständig zu ändern. Electric Dynamite fordert seine Nutzer auf, von Zeit zu Zeit diese Datenschutzerklärung auf Änderungen zu prüfen. Dies ist leider notwendig, das Electric Dynamite aufgrund der ausgesprochenen Datensparsamkeit nicht zwangsläufig Kontaktdaten der eigenen Benutzer und Besucher hat, und daher nicht zur expliziten Einwilligung auffordern kann. Ihre fortgesetzte Nutzung unserer Webseiten oder Dienste gilt daher als implizite Einwilligung zu der geänderten Datenschutzerklärung.
-
-###### Unter der Creative Commons Sharealike Lizenz (CC-BY-SA) lizenziert. Remix und Übersetzung von Automattic's Privacy Policy, in Ihrer Fassung aus März 2012, welche wiederum selbst unter CC-BY-SA Lizenz steht.
-
-###### Licensed under Creative Commons Sharealike license (CC-BY-SA). Remix and translation of Automattic's Privacy Policy, in its state in March 2012, which is licensed under CC-BY-SA itself.
-
-###### Aktualisiert am 2. Juli 2013. Änderungen: Tippfehler und grammatische Fehler korrigiert; pasty.cc als Domain hinzugefügt; Ausführungen präzisiert.
+###### Stand: 14. November 2026

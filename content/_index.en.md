@@ -11,9 +11,9 @@ Now why not just publish it under my legal name? Well, I sort of do that, becaus
 Privacy
 =======
 
-Unless noted otherwise, Electric Dynamite projects share a common Privacy Policy. While it naturally has to sound boring, like any legal document, here is a little spoiler: Electric Dynamite strongly believes in informational freedom, and your freedom to decide what information you share with whom. For Electric Dynamite this means that only because Electric Dynamite offers a certain service, this does not mean that Electric Dynamite gains any rights about you or your information. Electric Dynamite is obligated by law to store a certain amount of information, and keep it for a certain period of time, but besides that, Electric Dynamite tries to store as little as possible. The German language has a word for this, "Datensparsamkeit", which generally means that you only store what you need to store in order to offer the service your user requests.
+Electric Dynamite strongly believes in informational self-determination: your right to decide what information you share with whom. Offering a service does not give Electric Dynamite any rights to you or your data. The German language has a word for the principle behind this, "Datensparsamkeit": only store what is needed to provide the service you asked for.
 
-However, depending on the project Electric Dynamite might store some anonymous usage statistics to optimize the service to you. I know, I know, I usually hate sentences like this myself, but when offering a service to your users, this is really important to guarantee that the service is the way the users (you!) like it. Rest assured that Electric Dynamite would never knowingly violate your privacy.
+In practice that means no tracking, no analytics, no advertising and no cookies in any Electric Dynamite project. The details are in the [Privacy Policy](/en/privacy/).
 
 
 Software Projects

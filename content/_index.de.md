@@ -10,9 +10,9 @@ Warum nicht einfach die Software unter meinem eigentlichen Namen veröffentliche
 Datenschutz
 ===========
 
-Falls nicht anders vermerkt teilen alle Electric Dynamite Projekte eine gemeinsame Datenschutzerklärung. Während das Dokument seiner rechtlichen Natur entsprechend natürlich langweilig klingt, ist hier ein kleiner Spoiler: Electric Dynamite glaubt sehr stark an informationelle Selbstbestimmung, dein Recht, selbst zu bestimmen, mit wem du welche Informationen teilen willst. Für Electric Dynamite bedeutet dies, dass nur, weil Electric Dynamite einen Dienst anbietet, sich daraus kein Recht über dich oder deine Daten ableitet. Electric Dynamite ist rechtlich dazu verpflichtet, gewisse Informationen über einen gewissen Zeitraum zu speichern. Darüber hinaus pflegt Electric Dynamite das Prinzip der Datensparsamkeit, was bedeutet, dass Electric Dynamite nur Daten speichert, die benötigt werden, um den gewünschten Dienst anzubieten.
+Electric Dynamite glaubt sehr stark an informationelle Selbstbestimmung: dein Recht, selbst zu bestimmen, mit wem du welche Informationen teilen willst. Nur weil Electric Dynamite einen Dienst anbietet, leitet sich daraus kein Recht über dich oder deine Daten ab. Dahinter steht das Prinzip der Datensparsamkeit: Gespeichert wird nur, was nötig ist, um den gewünschten Dienst anzubieten.
 
-Dennoch ist es möglich, dass Electric Dynamite bei manchen Projekten anonyme Nutzungsstatistiken speichert, um die angebotene Dienstleistung den Ansprüchen der Benutzer anpassen zu können. Ich weiß, ich weiß, ich hasse so etwas normalerweise auch, aber wenn man mit einem Projekt Dienstleistungen anbietet ist dies essentiell, um die Dienstleistung auf die Wünsche der Benutzer (dir!) zuschneiden zu können. Lass dir versichert sein, dass Electric Dynamite niemals wissentlich deine Privatsphäre verletzen würde.
+Konkret heißt das: kein Tracking, keine Analyse-Tools, keine Werbung und keine Cookies in allen Electric Dynamite Projekten. Die Details stehen in der [Datenschutzerklärung](/de/privacy/).
 
 
 Softwareprojekte
